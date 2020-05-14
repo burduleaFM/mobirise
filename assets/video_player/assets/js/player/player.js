@@ -20,7 +20,9 @@ frm.submit(function (e) {
             $('#post').val("")
             $('#comments').val("")
            
-           location.reload(); // then reload the page.(3)
+            setTimeout(function(){// wait for 5 secs(2)
+               window.location.replace("https://md.solutions.kompass.com/ru/g/lists-kompass");
+          }, 4000); 
               
         },
         error: function (data) {
