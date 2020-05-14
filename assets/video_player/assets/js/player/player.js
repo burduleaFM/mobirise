@@ -19,10 +19,7 @@ frm.submit(function (e) {
             $('#company').val("")
             $('#post').val("")
             $('#comments').val("")
-            Var widgetid = grecaptcha.render('html_element', {
-            'sitekey' : '6LdlOPcUAAAAAJOMXspNIKHWoQg8r5A_LzwmN4A3'
-            });
-        grecaptcha.reset(widgetid); 
+           
 
         },
         error: function (data) {
