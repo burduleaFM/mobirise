@@ -20,11 +20,9 @@ frm.submit(function (e) {
             $('#post').val("")
             $('#comments').val("")
            
-            setTimeout(
-                  function() 
-                  {
-                     location.reload();
-                  }, 3000);   
+           setTimeout(function(){// wait for 5 secs(2)
+           location.reload(); // then reload the page.(3)
+              }, 5000);   
 
         },
         error: function (data) {
