@@ -19,7 +19,7 @@ frm.submit(function (e) {
             $('#company').val("")
             $('#post').val("")
             $('#comments').val("")
-            grecaptcha.reset();
+            $('.g-recaptcha').reset();
 
         },
         error: function (data) {
