@@ -19,6 +19,7 @@ frm.submit(function (e) {
             $('#company').val("")
             $('#post').val("")
             $('#comments').val("")
+            grecaptcha.reset();
 
         },
         error: function (data) {
