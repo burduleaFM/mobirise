@@ -21,7 +21,7 @@ frm.submit(function (e) {
             $('#comments').val("")
            
             setTimeout(function(){// wait for 5 secs(2)
-               window.location.replace("https://md.solutions.kompass.com/ru/g/liste-kompass");
+               window.location.replace("https://md.solutions.kompass.com/ro/g/liste-kompass");
           }, 4000); 
               
         },
