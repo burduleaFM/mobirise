@@ -21,8 +21,8 @@ frm.submit(function (e) {
             $('#comments').val("")
            
             setTimeout(function(){// wait for 5 secs(2)
-               window.location.replace("https://md.solutions.kompass.com/ru/g/spiski-kompass");
-          }, 4000); 
+               window.location.replace("https://www.infobase.md/ru/");
+          }, 7000); 
               
         },
         error: function (data) {
